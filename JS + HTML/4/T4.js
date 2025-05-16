@@ -1,6 +1,6 @@
 'use strict';
 
-const name = prompt('Please input your name! ');
+const name = prompt('What is your name? ');
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
