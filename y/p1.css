@@ -4,14 +4,14 @@ html {
 }
 
 body {
-  background: linear-gradient(to right, #f3c9d7, #eac1d3);
+  background: linear-gradient(to right, #98565f, #98565f);
   margin: 0;
 }
 
 .Container {
   width: 90vw;
   margin: auto;
-  background-color: #ffffffcc;
+  background-color: rgba(248, 229, 229, 0.8);
   box-shadow: 0 0 20px rgba(0,0,0,0.15);
 }
 
@@ -19,7 +19,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #5c0a15;
+  background: #722630;
   padding: 1rem;
 }
 
@@ -34,7 +34,7 @@ nav ul {
 }
 
 nav a {
-  background-color: #7a1f2b;
+  background-color: #9c424d;
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
@@ -44,7 +44,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #4a0c14;
+  background-color: #722630;
 }
 
 main {
@@ -68,10 +68,11 @@ main img.center {
   font-size: 2.2rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  color: #b50520;
 }
 
 footer {
-  background-color: #5c0a15;
+  background-color: #722630;
   height: 60px;
   margin-top: 2rem;
 }

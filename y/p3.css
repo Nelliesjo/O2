@@ -66,7 +66,7 @@ aside {
 }
 
 aside strong {
-  color: #a0522d;
+  color: #e60829;
 }
 
 footer {
@@ -92,7 +92,7 @@ footer {
 }
 
 .image-row figure:nth-child(2) {
-  margin-left: 1cm; /* push only the curtain image further */
+  margin-left: 1cm;
 }
 
 .image-row img {
