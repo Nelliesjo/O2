@@ -1,0 +1,96 @@
+html {
+  font-family: 'Playfair Display', serif;
+  font-size: 1vw;
+}
+
+body {
+  background: linear-gradient(to bottom, #f5c9a0, #ffece3);
+  margin: 0;
+}
+
+.Container {
+  width: 90vw;
+  margin: auto;
+  background-color: #ffffffdd;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #e89c6d;
+  padding: 1rem;
+}
+
+h1 img {
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+nav a {
+  background-color: #f4bf9c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  background-color: #e75454;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #e75454; /
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+article {
+  width: 30%;
+  background: #fffafa;
+  border: 2px solid #d86852;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.name {
+  font-size: 1.8rem;
+  color: #e75454;
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+footer {
+  background-color: #e89c6d;
+  height: 60px;
+  margin-top: 2rem;
+}
